@@ -18,4 +18,4 @@ eureka:
 PRODUCT:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-env: test16
+env: test17
