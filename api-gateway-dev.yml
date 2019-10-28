@@ -1,1 +1,8 @@
-
+zuul:
+  routes:
+    abcd:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:
+  ignored-patterns:
+    - /**/product/listForOrder
